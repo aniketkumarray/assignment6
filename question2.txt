@@ -1,0 +1,15 @@
+while True:
+    num = int(input("Enter an interger greater than 1 "))
+    if num % 2 == 0:
+        print(" you entered an even number.")
+    else:
+        print("odd")
+
+output:
+Enter an interger greater than 1 
+odd
+Enter an interger greater than 1 2
+ you entered an even number.
+Enter an interger greater than 1 7
+odd
+Enter an interger greater than 1 

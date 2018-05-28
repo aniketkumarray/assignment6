@@ -1,0 +1,34 @@
+count = 0
+a = [1, 1.2, "hello", 4, 3.6, "ani"]
+b = []
+c = []
+d = []
+print(a)
+
+for item in a:
+    print(type(item))
+    if type(item) == int:
+        b.append(item)
+    elif type(item) == float:
+        c.append(item)
+    elif type(item) == str:
+        d.append(item)
+    else:
+        print("invaild input")
+
+
+print("the integers are {}".format(b))
+print("the floats are {}".format(c))
+print("the strings are {}".format(d))
+
+output
+[1, 1.2, 'hello', 4, 3.6, 'ani']
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'str'>
+the integers are [1, 4]
+the floats are [1.2, 3.6]
+the strings are ['hello', 'ani']

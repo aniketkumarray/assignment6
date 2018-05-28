@@ -1,0 +1,21 @@
+count = 0
+a = []
+while count < 10:
+    a.append(int(input("enter the integer")))
+    count = count + 1
+
+print(a)
+
+
+output:
+enter the integer1
+enter the integer2
+enter the integer22
+enter the integer23
+enter the integer43
+enter the integer15
+enter the integer16
+enter the integer17
+enter the integer64
+enter the integer74
+[1, 2, 22, 23, 43, 15, 16, 17, 64, 74]
